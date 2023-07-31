@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Montserrat:ital,wght@1,300&family=Playfair+Display&family=Righteous&family=Roboto+Mono:wght@200;400&display=swap');
+
+.home {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    display: grid;
+    align-content: center;
+    background-color:  rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    text-align: center;
+    }
+
+p h4{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+}
+
+strong {
+    align-items: center;
+}
+
+.imgproyect {
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card.p-4 {
+    background-color: rgba(47, 49, 48, 0.393);
+    margin-top: 300px;
+}
+
+.btn.btn.success {
+    width: 100px;
+    height: 100px;
+}
+
+.text-center.mb-4 {
+    text-shadow:2px 2px rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.mb-3 {
+    color: aliceblue;
+    text-shadow:2px 2px rgb(0, 0, 0);
+
+}
+
+@media screen and (max-width: 1000px) {
+.card.p-4 {
+    margin-bottom: 50%;
+}
+}

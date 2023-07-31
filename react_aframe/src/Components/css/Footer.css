@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Montserrat:ital,wght@1,300&family=Playfair+Display&family=Righteous&family=Roboto+Mono:wght@200;400&display=swap');
+
+#containerfooter {
+    display: grid;
+    
+ 
+}
+
+.py-3.my-4 {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.logos {
+    border-radius: 50%;
+    margin-left: 15px
+}

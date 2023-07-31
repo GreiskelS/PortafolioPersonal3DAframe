@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}WebProyect{% endblock %}
+
+{% block body %}
+    <h1>WebProyect</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ web_proyect.id }}</td>
+            </tr>
+            <tr>
+                <th>The_Proyect</th>
+                <td>{{ web_proyect.TheProyect }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_web_proyect_index') }}">back to list</a>
+
+    <a href="{{ path('app_web_proyect_edit', {'id': web_proyect.id}) }}">edit</a>
+
+    {{ include('web_proyect/_delete_form.html.twig') }}
+{% endblock %}
